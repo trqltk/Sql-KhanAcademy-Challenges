@@ -14,7 +14,7 @@ INSERT INTO clothes (type, design)
 	
 /* Use ALTER to add a 'price' column to the table. Then select all the columns in each row to see what your table looks like now. */
 
- ALTER TABLE clothes ADD price TEXT;
+ ALTER TABLE clothes ADD price INTEGER;
     SELECT * FROM clothes;
 	
 /*Now assign each item a price, using UPDATE - item 1 should be 10 dollars, item 2 should be 20 dollars, item 3 should be 30 dollars. 
